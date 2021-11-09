@@ -1,0 +1,22 @@
+@import "../styles/base/typo";
+@import "../styles/utilities/colors";
+
+/* .nav-items{
+  display: flex;
+  flex-direction: column;
+  li{
+  padding: 20px;
+  }
+} */
+.button-nav{
+  padding: 20px;
+  position:fixed;
+  width: 100%;
+  color:$green-primary-color;
+  background-color: rgba(0, 0, 0, 0.3);
+ 
+  img{
+    height: 40px;
+    cursor: pointer;
+  }
+}

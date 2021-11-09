@@ -1,0 +1,4 @@
+<div role="button" class="button-nav" *ngIf="!isOpenNavbar" (click)="showNavbar()"><img src="https://imgur.com/g7PPSwD.png" alt="menu-icon"></div>
+<app-nav [navigation]="navigation" [(showNavbar)]="isOpenNavbar">Open</app-nav>
+<router-outlet></router-outlet>
+ 

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&family=Source+Code+Pro:ital,wght@0,200;0,400;1,300&display=swap');
+
+.fantasy-detail{
+    background-color: #9F9AA4;
+    padding-top:100px;
+    min-height: 100vh;
+    .fantasy-detail_container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+
+        .title_img_container{
+            max-width: 50vh;
+            background-color: #c1bbc7;
+            border-radius: 4px;
+            text-align: center;
+            margin:15px 22px;
+
+            h1{
+                font-family: 'Source Code Pro', monospace;
+                color: #4a4550;
+                padding: 10px;
+            }
+            img{
+                border-radius: 5px;
+                padding: 15px;
+            }
+        }
+
+        p{
+            max-width: 70vh;
+            padding:25px;
+            margin:15px 22px;
+            background-color: white;
+            border-radius: 4px;
+            font-family: 'Source Code Pro', monospace;
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width:400px){
+    .fantasy-detail{
+        flex-direction: column;
+    }
+}    
